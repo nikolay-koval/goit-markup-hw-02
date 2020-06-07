@@ -1,3 +1,27 @@
+/*Стили для index.html*/
+body {
+    background-color:#FFFFFF;
+    color:#212121;
+}
+    
+
+
+/* цвет основного текста #212121 */
+
+/* вторичный цвет  текста #757575 */
+
+/* белый цвет  текста #FFFFF */
+
+/* акцент #2196F3 */
+/* лого #2196F3, #000000 */
+.Web {
+    color:#2196F3;
+} 
+.Studio {
+color:#000000;
+}
+
+
 .site-nav .link.curent {
-    color: var(--accent-color);
+    color: #2196F3;
 }
