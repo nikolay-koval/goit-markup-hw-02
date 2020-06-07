@@ -1,25 +1,46 @@
 /*Стили для index.html*/
-body {
-    background-color:#FFFFFF;
-    color:#212121;
-}
-    
 
+body {
+    background-color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+}
+
+/*Убирает подчеткивание в ссылках*/
+a {
+    text-decoration: none;  
+}
+.list {
+    list-style: none;
+}
+/* лого #2196F3, #000000 */
+    .logo {
+        color: #000000;
+    }
+    .accent {
+        color: #2196F3;
+    }
+
+/* Footer bg #2F303A */
+footer {
+    background-color: #2F303A;
+}
 
 /* цвет основного текста #212121 */
+.site-nav a{
+    color: #212121;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color #2196F3
+}
 
 /* вторичный цвет  текста #757575 */
 
 /* белый цвет  текста #FFFFF */
 
-/* акцент #2196F3 */
-/* лого #2196F3, #000000 */
-.Web {
-    color:#2196F3;
-} 
-.Studio {
-color:#000000;
-}
+
+
 
 
 .site-nav .link.curent {
