@@ -4,6 +4,7 @@
     --title-text-color: #212121;
     --second-text-color: #757575;
     --accent-color: #2196F3;
+    --footer-color: #2F303A;
     }
     body {
         background-color: var(--primary-text-color);
@@ -40,7 +41,6 @@ top: 99px;
 .hero-button {
     background: #2196F3;
     color: var(--primary-text-color);
-
 }
 ul {
         list-style-type: none;
@@ -92,7 +92,8 @@ a {
     text-decoration: none;  
 }
 /* лого #2196F3, #000000 */
-.logo : { color: #000;
+.logo  { 
+    color: #000;
     font-family: Raleway; 
     font-style: normal;
     font-weight: bold;
@@ -100,17 +101,20 @@ a {
 }
 .logo {
 color: #000000;
- font-family: Raleway, cursive;
+ font-family: Raleway, cursive; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
 }
-.accent {
-color: #2196F3;
+.accent-logo {
+color: var(--accent-color);
 }
 .stud {
 color: white;
 }
 /* Footer bg #2F303A */
 footer {
-    background-color: #2F303A;
+    background-color: var(--footer-color);
     width: 1600px;
 height: 253px;
 left: 1px;
@@ -209,7 +213,7 @@ line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
-  .button.primary {
+  .button.primary:hover {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
   }
